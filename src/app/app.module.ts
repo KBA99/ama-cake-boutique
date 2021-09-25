@@ -20,6 +20,7 @@ import { SelectedCakeComponent } from './components/single-cake/selected-cake/se
 import { OverviewComponent } from './components/single-cake/selected-cake/overview/overview.component';
 import { DescriptionComponent } from './components/single-cake/selected-cake/description/description.component';
 import { SimilarCakesComponent } from './components/single-cake/selected-cake/similar-cakes/similar-cakes.component';
+import { CakeEnquiryComponent } from './components/cake-enquiry/cake-enquiry.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { SimilarCakesComponent } from './components/single-cake/selected-cake/si
     OverviewComponent,
     DescriptionComponent,
     SimilarCakesComponent,
+    CakeEnquiryComponent,
   ],
   imports: [
     BrowserModule,
