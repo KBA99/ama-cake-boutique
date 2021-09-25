@@ -21,6 +21,8 @@ import { OverviewComponent } from './components/single-cake/selected-cake/overvi
 import { DescriptionComponent } from './components/single-cake/selected-cake/description/description.component';
 import { SimilarCakesComponent } from './components/single-cake/selected-cake/similar-cakes/similar-cakes.component';
 import { CakeEnquiryComponent } from './components/cake-enquiry/cake-enquiry.component';
+import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +43,8 @@ import { CakeEnquiryComponent } from './components/cake-enquiry/cake-enquiry.com
     DescriptionComponent,
     SimilarCakesComponent,
     CakeEnquiryComponent,
+    HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
