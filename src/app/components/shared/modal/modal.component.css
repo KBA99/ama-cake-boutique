@@ -1,0 +1,44 @@
+* {
+  font-family: Montserrat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#email-signup {
+  
+}
+
+#latest-offers {
+  color: #ee2a7b;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vw;
+}
+
+.modal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column wrap;
+  max-width: 70%;
+}
+
+#no-thanks {
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 24px;
+}
+
+.subscribe {
+
+}
+
+.text {
+  color: #A7A9AC;
+  max-width: 50%;
+}
